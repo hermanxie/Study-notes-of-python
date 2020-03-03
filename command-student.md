@@ -1,7 +1,7 @@
 # 编程学习笔记
 
 ## 一、基础知识——概念
-### 操作符
+### 1. 操作符
 * **逻辑操作符(Logical Operators):**
 
   等于:`==`
@@ -49,3 +49,28 @@
 
   [python说明书](https://docs.python.org/zh-cn/3.7/)
 ---
+
+### 2. 命令符
+
+1. `mkdir`: 新建文件
+2. `ren`:文件重命名
+
+### 3. 常用函数
+
+1. f-string: 把变量或者表达式的值插入字符串中。
+
+举例：
+```
+name = 'Ann'
+age = '22'
+print(f'{name} is {age} years old.')  花括号 {} 括起来的部分是表达式
+```
+
+2. print:
+
+```
+print(*object, sep=' ', end='\n', file=sys.stdout, flush=False)
+sep=' '：接收多个参数之后，输出时，分隔符号默认为空格，' '；
+end='\n'：输出行的末尾默认是换行符号 '\n'；
+file=sys.stdout：默认的输出对象是 sys.stdout（即，用户正在使用的屏幕）……
+```
