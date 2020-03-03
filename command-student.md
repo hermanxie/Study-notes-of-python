@@ -47,7 +47,7 @@
 
     > *[这一章主要介绍了基础数据类型的运算细节。而除了基础数据类型，我们需要由它们组合起来的更多复杂数据类型。但无论数据的类型是什么，被操作符操作的总是该数据的值。所以，虽然绝大多数编程书籍按照惯例会讲解 “数据类型”，但为了究其本质，我们在这里关注的是 “值的类型”。虽然只是关注焦点上的一点点转换，但实践证明，这一点点的不同，对初学者更清楚地把握知识点有巨大的帮助。](https://github.com/selfteaching/the-craft-of-selfteaching/blob/b20e3b092696cc0e098377345ffc56063768d7eb/Part.1.E.2.values-and-their-operators.ipynb)*
 
-  [python说明书](https://docs.python.org/zh-cn/3.7/)
+* **[python说明书](https://docs.python.org/zh-cn/3.7/)**
 ---
 
 ### 2. 命令符
@@ -55,9 +55,11 @@
 1. `mkdir`: 新建文件
 2. `ren`:文件重命名
 
-### 3. 常用函数
-
-1. f-string: 把变量或者表达式的值插入字符串中。
+### 3. 常用函数  
+* **[python常需查看的标准库](https://docs.python.org/zh-cn/3/library/index.html)**
+* **[python内置函数说明书](https://docs.python.org/zh-cn/3/library/functions.html#divmod)**
+* **[python内置类型说明书](https://docs.python.org/zh-cn/3/library/stdtypes.html)**
+1. **f-string: 把变量或者表达式的值插入字符串中。**
 
 举例：
 ```
@@ -66,11 +68,18 @@ age = '22'
 print(f'{name} is {age} years old.')  花括号 {} 括起来的部分是表达式
 ```
 
-2. print:
+2. **print:**
 
-```
-print(*object, sep=' ', end='\n', file=sys.stdout, flush=False)
-sep=' '：接收多个参数之后，输出时，分隔符号默认为空格，' '；
-end='\n'：输出行的末尾默认是换行符号 '\n'；
-file=sys.stdout：默认的输出对象是 sys.stdout（即，用户正在使用的屏幕）……
-```
+
+>`print(*object, sep=' ', end='\n', file=sys.stdout, flush=False)`  
+`sep=' '`：接收多个参数之后，输出时，分隔符号默认为空格，' '；  
+`end='\n'`：输出行的末尾默认是换行符号 '\n'；  
+`file=sys.stdout`：默认的输出对象是 sys.stdout（即，用户正在使用的屏幕）……
+
+**[关于函数的理解总结:](https://github.com/hermanxie/the-craft-of-selfteaching-1/blob/master/Part.1.E.4.functions.ipynb)**
+>* *你可以把函数当作一个产品，而你自己是这个产品的用户;*  
+>* *既然你是产品的用户，你要养成好习惯，一定要亲自阅读产品说明书；*  
+>* *调用函数的时候，注意可选位置参数的使用方法和关键字参数的默认值；*  
+>* *函数定义部分，注意两个符号就行了，[] 和 =；  *
+>* *所有的函数都有返回值，即便它内部不指定返回值，也有一个默认返回值：None； * 
+>* *另外，一定要耐心阅读该函数在使用的时候需要注意什么 —— 产品说明书的主要作用就在这里……*
