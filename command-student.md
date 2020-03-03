@@ -39,7 +39,7 @@
 5. 查看某个值属于什么类型:`type()`
 
 
-***字符串的三种操作：**
+* **字符串的三种操作：**
 
 1. 拼接：`+` 和 `' '`（后者是空格）
 2. 拷贝：`*`
@@ -56,10 +56,11 @@
 2. `ren`:文件重命名
 
 ### 3. 常用函数  
-* **[python常需查看的标准库](https://docs.python.org/zh-cn/3/library/index.html)**
-* **[python内置函数说明书](https://docs.python.org/zh-cn/3/library/functions.html#divmod)**
-* **[python内置类型说明书](https://docs.python.org/zh-cn/3/library/stdtypes.html)**
-1. **f-string: 把变量或者表达式的值插入字符串中。**
+>**[python常需查看的标准库](https://docs.python.org/zh-cn/3/library/index.html)**  
+**[python内置函数说明书](https://docs.python.org/zh-cn/3/library/functions.html#divmod)**  
+**[python内置类型说明书](https://docs.python.org/zh-cn/3/library/stdtypes.html)**  
+
+* **f-string: 把变量或者表达式的值插入字符串中。**
 
 举例：
 ```
@@ -68,7 +69,7 @@ age = '22'
 print(f'{name} is {age} years old.')  花括号 {} 括起来的部分是表达式
 ```
 
-2. **print:**
+* **print:**
 
 
 >`print(*object, sep=' ', end='\n', file=sys.stdout, flush=False)`  
@@ -80,6 +81,18 @@ print(f'{name} is {age} years old.')  花括号 {} 括起来的部分是表达�
 >* *你可以把函数当作一个产品，而你自己是这个产品的用户;*  
 >* *既然你是产品的用户，你要养成好习惯，一定要亲自阅读产品说明书；*  
 >* *调用函数的时候，注意可选位置参数的使用方法和关键字参数的默认值；*  
->* *函数定义部分，注意两个符号就行了，[] 和 =；  *
->* *所有的函数都有返回值，即便它内部不指定返回值，也有一个默认返回值：None； * 
+>* *函数定义部分，注意两个符号就行了，`[ ]` 和 `=`；  *
+>* *所有的函数都有返回值，即便它内部不指定返回值，也有一个默认返回值：`None`； * 
 >* *另外，一定要耐心阅读该函数在使用的时候需要注意什么 —— 产品说明书的主要作用就在这里……*
+
+### 4. 字符串
+
+* **转换函数：**  
+`ord()`: 把单个字符转换成码值  
+`chr()`: 把整数（码值）转换成字符  
+`\n`: 换行符号  `\t`:TAB键  
+`input()`: 接收用户的键盘输入  
+`len()`: 返回字符串的长度  
+* **大小写：**  
+**[这是一篇有用的文章：Truths programmers should know about case](https://www.b-list.org/weblog/2018/nov/26/case/)**  
+
