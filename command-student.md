@@ -116,5 +116,5 @@ print(f'{name} is {age} years old.')  花括号 {} 括起来的部分是表达�
 `str.lstrip()`：删除左侧字符；`str.rstrip()`：删除右侧字符；  
 
 * ***拆分字符串***  
-![下载图片](/Users/Administrator/code/python-student/00001.png)
+![下载图片](\Users\Administrator\code\python-student\00001.png)
 
