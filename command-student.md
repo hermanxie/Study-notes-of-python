@@ -57,17 +57,14 @@
 ---
 ### 3. 常用函数  
 >**[python常需查看的标准库](https://docs.python.org/zh-cn/3/library/index.html)**  
-**[python内置函数说明书](https://docs.python.org/zh-cn/3/library/functions.html#divmod)**  
+**[python内置函数说明书](https://docs.python.org/zh-cn/3/library/functions.html)**  
 **[python内置类型说明书](https://docs.python.org/zh-cn/3/library/stdtypes.html)**  
 
-* **f-string: 把变量或者表达式的值插入字符串中。**
+* **常用内建函数：**
 
-举例：
-```
-name = 'Ann'
-age = '22'
-print(f'{name} is {age} years old.')  花括号 {} 括起来的部分是表达式
-```
+>`divmod(n, m)`: 用来计算`n`除以`m`，返回两个整数，一个是商，另外一个是余。  
+`pow(n, m)`: 用来做乘方运算，返回`n`的`m`次方。  
+`round(n)`: 返回离浮点数字`n`最近的那个整数。
 
 * **print:**
 
@@ -115,6 +112,25 @@ print(f'{name} is {age} years old.')  花括号 {} 括起来的部分是表达�
 `str.strip([chars])`: 有2个功能——1.不带参数的情况下，去除一个字符串**首尾**（首字符串之前的空格，尾字符串之后的空格）的所有空白，包括空格、TAB、换行符等等；2.带参数的情况下，那么参数字符串中的所有字母都会被当做需要从**首尾**（首字符串和末尾的字符串）剔除的对象；  
 `str.lstrip()`：删除左侧字符；`str.rstrip()`：删除右侧字符；  
 
-* ***拆分字符串***  
-![下载图片](https://github.com/hermanxie/Study-notes-of-python.git/00001.png)
+* **拆分字符串**  
+
+  `str.splitlines()`: 把每一行拆分出来作为列表（可以理解为拆分段落里的**行**）。  
+  `str.split(sep=None, maxsplit=-1)`: 根据分隔符进行拆分，形成列表（可以理解为拆分每行内的**单个词**）。如果没有给 str.split() 传递参数，那么默认为用 None 分割（各种空白，比如，\t 和 \r 都被当作 None）;拆分次数默认为全部。  
+
+* **拼接字符串**  
+`str.join(_iterable_)`: `"str"`是指提供一个用来衔接的字符串；`"_iterable_"`是指被拼接的字符串**列表**。
+
+* **字符串排版**  
+`str.center(width[, fillchar])`:字符串居中对齐。  
+`str.ljust(width)`: 字符串左对齐；  
+`str.rjust(width)`: 字符串右对齐。
+
+* **格式化字符串（插入字符串）：**  
+`str.format(*args, **kwargs)`: `'str'`是指被插入的整体字符串；参数`(*args, **kwargs)`是被插入的字符串或表达式，需要用`{}`标示在`'str'`中的位置。  
+`f-string`: 可以把任意数量的字符插入字符串中。
+
+* **字符串的操作、函数、与Methods:**  
+![**字符串的操作、函数、与Methods**](https://nbviewer.jupyter.org/github/hermanxie/the-craft-of-selfteaching-1/blob/master/images/string-concepts.png)
+
+
 
