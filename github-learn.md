@@ -42,9 +42,13 @@ git push
 git log:查看提交记录；
 
 ---
-* **解决异常 问题一:**
+* **解决异常：**
 
-*当输入`git push`后出现异常：*  
+[**GitHub帮助查询**](https://help.github.com/cn/github)
+
+**问题一:**
+
+***当输入`git push`后出现异常：***  
 >! [rejected]        master -> master (non-fast-forward)  
 error: failed to push some refs to 'ssh://git@*****.git'  
 hint: Updates were rejected because the tip of your current branch is behind  
@@ -52,7 +56,8 @@ hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.  
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
-解决办法：
+***解决办法：***
+
 修改指令：
 
 `git pull --rebase origin master`

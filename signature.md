@@ -1,1 +1,1 @@
-![谢展翅签名](/student/python/signature.png)
+![谢展翅签名](/python-student/signature.png)
