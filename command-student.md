@@ -132,5 +132,8 @@
 * **字符串的操作、函数、与Methods:**  
 ![**字符串的操作、函数、与Methods**](https://nbviewer.jupyter.org/github/hermanxie/the-craft-of-selfteaching-1/blob/master/images/string-concepts.png)
 
+![签名](../../python-student/signature.png)
+
+
 
 
