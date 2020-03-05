@@ -1,5 +1,7 @@
 ## 关于github的使用
 
+**[github官方说明书]**(https://git-scm.com/book/zh/v2)
+
 1. 新建仓库
 2. 编写文件
 3. 编写`"readme.md"`文件
@@ -21,3 +23,7 @@ gihub内的菜单：
 
 1. Fork:复制别人的仓库
 2. Clone or download:通过命令复制仓库并下载到你的电脑文件夹内
+
+**gihub新建仓库及版本提交步骤：**
+1. 确定本地文件目录；
+2. 
