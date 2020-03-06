@@ -1,1 +1,0 @@
-![谢展翅签名](/python-student/signature.png)
