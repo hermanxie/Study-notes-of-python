@@ -62,17 +62,19 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 ***解决办法二（只能单次有效）：***
 
-修改指令：
+1. 修改指令：  
+`git pull --rebase origin master`  
+ 查看是否有需要再进一步的commit一下，解决一些冲突。
 
-`git pull --rebase origin master`
- 
-查看是否有需要再进一步的commit一下，解决一些冲突。
-
-然后输入指令：
-
+2. 然后输入指令：  
 `git push -u origin master -f`
 
-***解决办法三：***
+***解决办法三：***   
+1. 执行： `git pull origin master --allow-unrelated-histories` 把远程仓库和本地的仓库消除差异；  
+2. 执行：`git pull origin master`；  
+3. 执行：`git push origin master`。
+
+***解决办法四：***
 
 如果运行git status之后，出现：
 >On branch master
