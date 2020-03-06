@@ -1,4 +1,4 @@
 
-1. [python基础知识笔记](command-student.md)
+1. [python基础知识笔记](https://github.com/hermanxie/Study-notes-of-python/tree/master/Command-notes)
 2. [github的使用](github-learn.md)
-3. ![](https://github.com/hermanxie/Study-notes-of-python/blob/master/images/signature.png)
+3. [图片文件](https://github.com/hermanxie/Study-notes-of-python/tree/master/images)
