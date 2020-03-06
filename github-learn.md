@@ -39,7 +39,10 @@ git push
 **git其他命令：**
 
 `git restore --staged <你不想提交的文件名>`：把你**不想提交**的文件从暂时的版本控制仓库里拿出来；  
-git log:查看提交记录；
+`git log`:查看提交记录；  
+`git branch -a`: 查看'branchname'；  
+`git --Force`: 查看隐藏文件'.git'文件；  
+
 
 ---
 * **解决异常：**
