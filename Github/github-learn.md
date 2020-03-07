@@ -1,6 +1,10 @@
 ## 关于github的使用
 
-[**github官方说明书**](https://git-scm.com/book/zh/v2)
+[**Github官方说明书**](https://git-scm.com/book/zh/v2)
+
+[**Github教程大合集：《Awesome-git》**](https://github.com/dictcp/awesome-git)  
+* [**Flight rules for Git**](https://github.com/k88hudson/git-flight-rules/blob/master/README.md)  
+* [**虚拟学习GIT**](https://try.github.io/)
 
 **一、Gitbub新建仓库及版本提交步骤：**  
 * **新建仓库：**
