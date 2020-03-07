@@ -24,14 +24,12 @@
 
   **完整的操作符优先级列表，参见 [官方文档](https://docs.python.org/3/reference/expressions.html#operator-precedence)。**
 
-* **布尔值操作符：**
-  `与、或、非：and、or、not`
-
-  它们之中，优先级最低的是或 or，然后是与 and, 优先级最高的是非 not。
+* **布尔值操作符：**  
+  `与、或、非：and、or、not`它们之中，优先级最低的是或 or，然后是与 and, 优先级最高的是非 not。
 
   **操作符优先级：** 数值计算的操作符优先级最高，其次是逻辑操作符，布尔值的操作符优先级最低。
 
-* **值的类型及转换：**
+* **值的类型及转换：**  
 1. 将字符串转换为数字用: `int()、float()`
 2. 将数字转换成字符串用: `str()`
 3. 将整数转换成浮点数字用: `float()`
@@ -51,9 +49,22 @@
 ---
 
 ### 2. 命令符
+* **Bash常用命令说明：**  
+1. `cd:` Change Directory 的缩写，转到指定目录；
+2. `ls:` List 的缩写，列出当前目录中的内容；
+3. `mkdir:` Make Directory 的缩写，在当前目录中创建一个新的目录；
+4. `pwd:` Present Working Directory 的缩写，显示当前工作目录；
+5. `touch:` 创建一个指定名称的空文件；
+6. `rm:` Remove 的缩写，删除指定文件；
+7. `rmdir:` Remove Directory 的缩写，删除指定目录；
+8. `cp:` Copy 的缩写，拷贝指定文件；
+9. `mv：`Move 的缩写，移动指定文件；
+10. `cat:` Concatenate 的缩写，在屏幕中显示内容；
+11. `chmod:` Change Mode 的缩写，改变文件的权限；
+12. `man:` Manual 的缩写，显示指定命令的使用说明；
+4. `ren`:文件重命名；
 
-1. `mkdir`: 新建文件
-2. `ren`:文件重命名
+
 ---
 ### 3. 常用函数  
 >**[python常需查看的标准库](https://docs.python.org/zh-cn/3/library/index.html)**  
