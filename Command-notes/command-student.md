@@ -50,19 +50,22 @@
 
 ### 2. 命令符
 * **Bash常用命令说明：**  
-1. `cd:` Change Directory 的缩写，转到指定目录；
-2. `ls:` List 的缩写，列出当前目录中的内容；
-3. `mkdir:` Make Directory 的缩写，在当前目录中创建一个新的目录；
-4. `pwd:` Present Working Directory 的缩写，显示当前工作目录；
-5. `touch:` 创建一个指定名称的空文件；
-6. `rm:` Remove 的缩写，删除指定文件；
-7. `rmdir:` Remove Directory 的缩写，删除指定目录；
-8. `cp:` Copy 的缩写，拷贝指定文件；
-9. `mv：`Move 的缩写，移动指定文件；
-10. `cat:` Concatenate 的缩写，在屏幕中显示内容；
-11. `chmod:` Change Mode 的缩写，改变文件的权限；
-12. `man:` Manual 的缩写，显示指定命令的使用说明；
-4. `ren`:文件重命名；
+
+Name | Method
+----- | -----
+`cd` | Change Directory 的缩写，转到指定目录；
+`ls` | List 的缩写，列出当前目录中的内容；
+`mkdir` | Make Directory 的缩写，在当前目录中创建一个新的目录；
+`pwd` | Present Working Directory 的缩写，显示当前工作目录；
+`touch` | 创建一个指定名称的空文件；
+`rm` | Remove 的缩写，删除指定文件；
+`rmdir` | Remove Directory 的缩写，删除指定目录；
+`cp` | Copy 的缩写，拷贝指定文件；
+`mv` | Move 的缩写，移动指定文件；
+`cat` | Concatenate 的缩写，在屏幕中显示内容；
+`chmod` | Change Mode 的缩写，改变文件的权限；
+`man` | Manual 的缩写，显示指定命令的使用说明；
+`ren` | 文件重命名；
 
 
 ---

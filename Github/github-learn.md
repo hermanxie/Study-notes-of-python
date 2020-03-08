@@ -34,10 +34,17 @@
 2. Clone or download: 通过命令复制仓库并下载到你的本地电脑文件夹内。
 
 * **git其他常用命令：**  
-`git restore --staged <你不想提交的文件名>`：把你**不想提交**的文件从暂时的版本控制仓库里拿出来；  
-`git log`:查看提交记录；  
-`git branch -a`: 查看'branchname'；  
-`git --Force`: 查看隐藏文件'.git'文件；  
+
+Name | Methond
+----- | -----
+`git restore --staged <你不想提交的文件名> `| 把你**不想提交**的文件从暂时的版本控制仓库里拿出来  
+`git log` | 查看提交记录  
+`git remote` |  查看你已经配置的远程仓库服务器名 
+`git remote -v` |  显示远程服务器名和对应的URL 
+`git remote add <newname> <url>` |  添加一个新的远程Git仓库  
+`git fetch <newname>` | 拉取`<newname>`仓库中有但你没有的信息
+`git branch -a` |  查看'branchname' 
+`git --Force` |  查看隐藏文件'.git'文件
 
 
 ---
