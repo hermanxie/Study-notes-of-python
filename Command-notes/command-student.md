@@ -151,7 +151,7 @@
 * 数据容器包括：**字符串**、由`range()`函数生成的**等差数列**、**列表**(list)、**元组**(tuple)、**集合**(set)、**字典**(dictionary)。  
 这些容器，各有各的用处。其中又分为**可变容器**（Mutable）和**不可变容器**（Immutable）。可变的有**列表、集合、字典**；不可变的有**字符串**、range() 生成的**等差数列**、**元组**。集合，又分为 Set 和 Frozen Set；其中，**Set 是可变的**，**Frozen Set 是不可变的**。  
 字符串、由 range() 函数生成的等差数列、列表、元组是**有序类型**（Sequence Type），而集合与字典是无序的。  
-![数据容器分类](https://github.com/hermanxie/the-craft-of-selfteaching-1/raw/b20e3b092696cc0e098377345ffc56063768d7eb/images/python-containers-final.png)
+![数据容器分类](https://github.com/hermanxie/Study-notes-of-python/blob/master/images/python-containers-final.png)
 
 * **可变序列的Methods**:  
 
@@ -171,4 +171,4 @@
   ###### 注：a 代表一个列表；
 
 * **列表操作符、函数、与Methods**
-![](https://github.com/hermanxie/the-craft-of-selfteaching-1/raw/b20e3b092696cc0e098377345ffc56063768d7eb/images/list-concepts.png)
+![](https://github.com/hermanxie/Study-notes-of-python/blob/master/images/list-concepts.png)
