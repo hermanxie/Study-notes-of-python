@@ -153,4 +153,21 @@ Name | Method
 字符串、由 range() 函数生成的等差数列、列表、元组是**有序类型**（Sequence Type），而集合与字典是无序的。  
 ![数据容器分类](https://github.com/hermanxie/the-craft-of-selfteaching-1/raw/b20e3b092696cc0e098377345ffc56063768d7eb/images/python-containers-final.png)
 
+* **可变序列的Methods**:  
 
+  Name   |  Methods  
+  -------|-------
+  a.append()| 在末尾追加一个元素
+  a.clear() | 清空序列
+  a.copy() | 拷贝一个列表（在执行其他命令时，拷贝件和原件互不干扰
+  a.extend(t) | 在末尾追加一个列表(t 代表另一个列表)
+  a.insert(i, x)| 在某个索引位置插入一个元素(i代表位置，x代表字符)
+  a.pop(i)| 删除某个位置的字符(i代表位置)，并可以将它赋予其他元素
+  a.remove(x)| 删除字符，如果有多个同样的，删除第一个
+  del a[i] | 删除某个位置的字符(i代表位置)
+  a.reverse()| 逆序列表
+  a.sort(key, reverse)| 从小到大排序，可以有参数  
+  注：a 代表一个列表；；
+
+* **列表操作符、函数、与Methods**
+![](https://github.com/hermanxie/the-craft-of-selfteaching-1/raw/b20e3b092696cc0e098377345ffc56063768d7eb/images/list-concepts.png)
