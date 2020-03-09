@@ -51,21 +51,21 @@
 ### 2. 命令符
 * **Bash常用命令说明：**  
 
-Name | Method
------ | -----
-`cd` | Change Directory 的缩写，转到指定目录；
-`ls` | List 的缩写，列出当前目录中的内容；
-`mkdir` | Make Directory 的缩写，在当前目录中创建一个新的目录；
-`pwd` | Present Working Directory 的缩写，显示当前工作目录；
-`touch` | 创建一个指定名称的空文件；
-`rm` | Remove 的缩写，删除指定文件；
-`rmdir` | Remove Directory 的缩写，删除指定目录；
-`cp` | Copy 的缩写，拷贝指定文件；
-`mv` | Move 的缩写，移动指定文件；
-`cat` | Concatenate 的缩写，在屏幕中显示内容；
-`chmod` | Change Mode 的缩写，改变文件的权限；
-`man` | Manual 的缩写，显示指定命令的使用说明；
-`ren` | 文件重命名；
+  Name | Method
+  ----- | -----
+  `cd` | Change Directory 的缩写，转到指定目录；
+  `ls` | List 的缩写，列出当前目录中的内容；
+  `mkdir` | Make Directory 的缩写，在当前目录中创建一个新的目录；
+  `pwd` | Present Working Directory 的缩写，显示当前工作目录；
+  `touch` | 创建一个指定名称的空文件；
+  `rm` | Remove 的缩写，删除指定文件；
+  `rmdir` | Remove Directory 的缩写，删除指定目录；
+  `cp` | Copy 的缩写，拷贝指定文件；
+  `mv` | Move 的缩写，移动指定文件；
+  `cat` | Concatenate 的缩写，在屏幕中显示内容；
+  `chmod` | Change Mode 的缩写，改变文件的权限；
+  `man` | Manual 的缩写，显示指定命令的使用说明；
+  `ren` | 文件重命名；
 
 
 ---
@@ -166,8 +166,9 @@ Name | Method
   a.remove(x)| 删除字符，如果有多个同样的，删除第一个
   del a[i] | 删除某个位置的字符(i代表位置)
   a.reverse()| 逆序列表
-  a.sort(key, reverse)| 从小到大排序，可以有参数  
-  注：a 代表一个列表；；
+  a.sort(key, reverse)| 从小到大排序，可以有参数
+
+  ###### 注：a 代表一个列表；
 
 * **列表操作符、函数、与Methods**
 ![](https://github.com/hermanxie/the-craft-of-selfteaching-1/raw/b20e3b092696cc0e098377345ffc56063768d7eb/images/list-concepts.png)
