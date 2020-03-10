@@ -172,3 +172,56 @@
 
 * **列表操作符、函数、与Methods**
 ![](https://github.com/hermanxie/Study-notes-of-python/blob/master/images/list-concepts.png)
+
+* **集合(set)**  
+集合（Set）这个容器类型与列表不同的地方在于，首先它**不包含重合元素**，其次它是无序的；进而，集合又分为两种，Set，可变的，Frozen Set，不可变的。  
+
+  **集合的操作符有：**
+
+  操作符 | 意义 | Methods | 解释  
+  ------ | ----- | ----- | -----  
+    \|   | 并集 | set1.union(*set2) | 一个集合与另一个集合合并  
+   & | 交集 | set1.intersection(*set2) | 两个集合相交，返回其中相同的元素  
+   - | 差集 | set1.difference(*set2) | 第1个集合减去两个集合中相同的，返回第1个集合中剩下的元素  
+    |  | set2.difference(*set1) | 第2个集合减去两个集合中相同的，返回第2个集合中剩下的元素 
+    ^ | 对称差集 | set1.symmetric_difference(*set2) | 把第一个和第二和集合中相同的都减去，返回两个集合中剩下的元素
+
+    注：并集、交集、差集都可以接收多个集合作为参数(*set2)，但对称差集只能接收一个参数。
+
+  **逻辑运算:**  
+两个集合之间可以进行逻辑比较，返回布尔值。  
+`set == other`  
+True: set 与 other 相同  
+`set != other `   
+True: set 与 other 不同  
+`isdisjoint(other)`  
+True: set 与 other 非重合；即，set & other == None  
+`issubset(other)，set <= other `   
+True: set 是 other 的子集  
+`set < other`  
+True: set 是 other 的真子集，相当于 set <= other && set != other  
+`issuperset(other)，set >= other `   
+True: set 是 other 的超集  
+`set > other`  
+True: set 是 other 的真超集，相当于 set >= other && set != other  
+
+  **更新:**  
+对于集合，有以下更新它自身的 Method：  
+`add(elem)`  
+把 elem 加入集合  
+`remove(elem)`  
+从集合中删除 elem；如果集合中不包含该 elem，会产生 KeyError 错误。  
+`discard(elem)`  
+如果该元素存在于集合中，删除它。  
+`pop(elem)`  
+从集合中删除 elem，并返回 elem 的值，针对空集合做此操作会产生 KeyError 错误。  
+`clear()`  
+从集合中删除所有元素。  
+`set.update(*others)，`相当于 set |= other | ...  
+更新 set, 加入 others 中的所有元素；  
+`set.intersection_update(*others)`，相当于 set &= other & ...  
+更新 set, 保留同时存在于 set 和所有 others 之中的元素；  
+`set.difference_update(*others)`，相当于 set -= other | ...  
+更新 set, 删除所有在 others 中存在的元素；  
+`set.symmetric_difference_update(other)`，相当于 set ^= other  
+更新 set, 只保留存在于 set 或 other 中的元素，但不保留同时存在于 set 和 other 中的元素；注意，该 Method 只接收一个参数。
