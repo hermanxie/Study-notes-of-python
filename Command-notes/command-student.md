@@ -225,3 +225,31 @@ True: set 是 other 的真超集，相当于 set >= other && set != other
 更新 set, 删除所有在 others 中存在的元素；  
 `set.symmetric_difference_update(other)`，相当于 set ^= other  
 更新 set, 只保留存在于 set 或 other 中的元素，但不保留同时存在于 set 和 other 中的元素；注意，该 Method 只接收一个参数。
+
+
+## 6. 文件
+* **创建文件**  
+`open(file, mode='r')`: Python创建文件使用的内建函数。  
+
+  第二个参数，mode的默认值是'r'，可用的mode有以下几种：  
+
+  参数字符 | 意义  
+  ---- | ----  
+  'r' | 只读模式
+  'w' | 写入模式（重建）
+  'x' | 排他模式——如果文件已存在则打开失败
+  'a' | 追加模式——在已有文件末尾追加
+  'b' | 二进制文件模式
+  't' | 文本文件模式（默认）
+  '+' | 读写模式（更新）
+
+* **删除、读写文件的方法**  
+
+  函数 | 使用解释  
+  -----| ----  
+  os.remove(file.name) : | 使用前，必须先调用 os 模块
+  file.write() | 创建文件之后，可以用来把数据写入文件
+  file.writelines() | 把一个列表写入到一个文件中
+  file.read() | 创建文件之后，可以用来读取文件  
+  file.readline() | 有很多行时，可以用这个Method，每次调用都会返回文件的新一行
+  file.readlines() | 将文件作为一个列表返回，列表中的每个元素对应着文件中的每一行。
