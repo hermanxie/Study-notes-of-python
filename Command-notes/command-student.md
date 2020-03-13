@@ -1,5 +1,9 @@
 # 编程学习笔记
-
+---
+* **有用的必读内容：**  
+[1. Python代码样式指南](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)  
+[2. Python 说明书](https://docs.python.org/zh-cn/3/)
+---
 ## 一、基础知识——概念
 ### 1. 操作符
 * **逻辑操作符(Logical Operators):**
@@ -253,3 +257,4 @@ True: set 是 other 的真超集，相当于 set >= other && set != other
   file.read() | 创建文件之后，可以用来读取文件  
   file.readline() | 有很多行时，可以用这个Method，每次调用都会返回文件的新一行
   file.readlines() | 将文件作为一个列表返回，列表中的每个元素对应着文件中的每一行。
+
