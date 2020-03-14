@@ -82,6 +82,7 @@
 **[python内置函数说明书](https://docs.python.org/zh-cn/3/library/functions.html)**  
 **[python内置类型说明书](https://docs.python.org/zh-cn/3/library/stdtypes.html)**  
 
+* **函数定义**：函数是一个完整的程序，包含 **输入（参数传递）、处理（运行特定代码）、输出（返回值）** 三个部分。  
 * **常用内建函数：**
 
 >`divmod(n, m)`: 用来计算`n`除以`m`，返回两个整数，一个是商，另外一个是余。  
