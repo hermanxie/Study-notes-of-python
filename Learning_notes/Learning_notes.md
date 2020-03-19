@@ -1,12 +1,20 @@
 # 编程学习笔记
 ---
-* **有用的必读内容：**  
-[**1. Python代码样式指南**](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)  
-[**2. Python 说明书**](https://docs.python.org/zh-cn/3/)  
+* **有用的必读内容：** 
+
+  [**1. Python代码样式指南**](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)  
+  [**2. Python 说明书**](https://docs.python.org/zh-cn/3/)  
   >* [**Python 教程**](https://docs.python.org/zh-cn/3/tutorial/index.html)  
   >* [**Python 标准库**](https://docs.python.org/zh-cn/3/library/index.html)
   >* [**Python 代码仓库**](https://github.com/python/)
-  >* [**Python Demo 程序**](https://github.com/python/cpython/tree/master/Tools/demo)
+  >* [**Python Demo 程序**](https://github.com/python/cpython/tree/master/Tools/demo)  
+
+  **3. Python 学习书**  
+  * [**ThinkPython(Github)**](https://github.com/AllenDowney/ThinkPython2)   
+  * [**ThinkPython(htm)**](https://greenteapress.com/wp/think-python-2e/)  
+  * [**A Bite of Python**](https://python.swaroopch.com/control_flow.html)  
+  * [**Dive Into Pyton**](https://linux.die.net/diveintopython/html/)
+  
 ---
 ## 一、基础知识——概念
 ### 1. 操作符
@@ -39,11 +47,14 @@
   **操作符优先级：** 数值计算的操作符优先级最高，其次是逻辑操作符，布尔值的操作符优先级最低。
 
 * **值的类型及转换：**  
-1. 将字符串转换为数字用: `int()、float()`
-2. 将数字转换成字符串用: `str()`
-3. 将整数转换成浮点数字用: `float()`
-4. 将浮点数字转换成整数用: `int()`
-5. 查看某个值属于什么类型:`type()`
+
+  Name | Method  
+  ---- | :----:  
+  `int()、float()` | 将字符串转换为数字用  
+  `str()` | 将数字转换成字符串用  
+  `float()` | 将整数转换成浮点数字用  
+  `int()` | 将浮点数字转换成整数用  
+  `type()` | 查看某个值属于什么类型  
 
 
 * **字符串的三种操作：**
@@ -276,4 +287,18 @@ True: set 是 other 的真超集，相当于 set >= other && set != other
 
 * **`while`循环**：后面跟随的是一个**赋值表达式**，根据赋值表达式的**真假**来决定执行还是终止。  
 * **`for` 循环**：后面跟随的是一个**序列**（字符串、元组或列表）。  
-* **`if、elif` 语句**：后面跟随的是一个**赋值表达式**；else 后面跟随的是一个**句体**。
+* **`if、elif` 语句**：后面跟随的是一个**赋值表达式**；else 后面跟随的是一个**句体**。  
+
+## 8. 函数命名
+
+* 为一个函数**取名的原则**：
+  * 避免重名；
+  * 不要嫌麻烦，尽可能描述清晰；
+  * 取一个化名；
+
+* **lambda** （匿名函数）:  
+  * lambda使用方式：lambda <参数列表> : <表达式>。
+    >示例：`lambda x, y : x + y`
+
+  **总结：**  
+  * 注意函数化名的使用，**带参数**与**不带参数**，代表的意思是不一样的。比如：`f = function_name` 这是函数化名； `f = function_name(<参数>)` 这是把 `function_name(<参数>)`这个函数的 **返回值（这个返回值不一定是一个具体的数值，也可能是另一个函数）** 赋给变量 `f`。

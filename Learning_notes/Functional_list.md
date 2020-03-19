@@ -5,4 +5,5 @@
 Name | Method | Notes
 ---- | :----: | :----:
 keyword.kwlist | 列出所有关键字 | 
-keyword.iskeyword('函数名') | 查询某个词是否是关键字 | 使用前先调用  `from IPython.core.interactiveshell import InteractiveShell  \nInteractiveShell.ast_node_interactivity = "all"`
+keyword.iskeyword('函数名') | 查询某个词是否是关键字 | 使用前先调用  `from IPython.core.interactiveshell import InteractiveShell  \nInteractiveShell.ast_node_interactivity = "all"`  
+id(<函数名>) | 查询某对象的内存地址  
