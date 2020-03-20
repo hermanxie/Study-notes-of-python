@@ -14,7 +14,9 @@
   * [**ThinkPython(htm)**](https://greenteapress.com/wp/think-python-2e/)  
   * [**A Bite of Python**](https://python.swaroopch.com/control_flow.html)  
   * [**Dive Into Pyton**](https://linux.die.net/diveintopython/html/)
-  
+  * [**Python 练习题**](https://pythonbasics.org/exercises/)
+  * [**Guide to Python**](https://docs.python-guide.org/)
+  * [**更多学习资料**](https://github.com/hermanxie/the-craft-of-selfteaching-1/blob/master/S.whats-next.ipynb)
 ---
 ## 一、基础知识——概念
 ### 1. 操作符
