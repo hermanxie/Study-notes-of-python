@@ -12,6 +12,7 @@
   **3. Python 学习书**  
   * [**ThinkPython(Github)**](https://github.com/AllenDowney/ThinkPython2)   
   * [**ThinkPython(htm)**](https://greenteapress.com/wp/think-python-2e/)  
+  * [**Free books by Allen B. Downey**](https://greenteapress.com/wp/think-dsp/)
   * [**A Bite of Python**](https://python.swaroopch.com/control_flow.html)  
   * [**Dive Into Pyton**](https://linux.die.net/diveintopython/html/)
   * [**Python 练习题**](https://pythonbasics.org/exercises/)
@@ -304,3 +305,19 @@ True: set 是 other 的真超集，相当于 set >= other && set != other
 
   **总结：**  
   * 注意函数化名的使用，**带参数**与**不带参数**，代表的意思是不一样的。比如：`f = function_name` 这是函数化名； `f = function_name(<参数>)` 这是把 `function_name(<参数>)`这个函数的 **返回值（这个返回值不一定是一个具体的数值，也可能是另一个函数）** 赋给变量 `f`。
+
+## 9. 递归函数
+* 递归函数遵循三个原则：  
+  >1.根据定义，递归函数必须在内部调用自己；  
+2.必须设定一个退出条件；  
+3.递归过程中必须能够逐步达到退出条件……
+
+* [**普林斯顿大学的一个网页，有很多递归的例子**](https://introcs.cs.princeton.edu/java/23recursion/)  
+
+## 10. 函数的说明文档
+* 书写Docstring的规范：  
+  >1.无论是单行还是多行的 Docstring，一概使用三个双引号括起；  
+2.在 Docstring 内部，文字开始之前，以及文字结束之后，都不要有空行；  
+3.多行 Docstring，第一行是概要，随后空一行，再写其它部分；  
+4.完善的 Docstring，应该概括清楚以下内容：参数、返回值、可能触发的错误类型、可能的副作用，以及函数的使用限制等等；  
+5.每个参数的说明都使用单独的一行……
