@@ -11,7 +11,7 @@
 
   **3. Python 学习书**  
   * [**ThinkPython(Github)**](https://github.com/AllenDowney/ThinkPython2)   
-  * [**ThinkPython(htm)**](https://greenteapress.com/wp/think-python-2e/)  
+  * [**ThinkPython(htm)**](http://greenteapress.com/thinkpython2/html/index.html/think-python-2e/)  
   * [**Free books by Allen B. Downey**](https://greenteapress.com/wp/think-dsp/)
   * [**A Bite of Python**](https://python.swaroopch.com/control_flow.html)  
   * [**Dive Into Pyton**](https://linux.die.net/diveintopython/html/)
@@ -295,9 +295,10 @@ True: set 是 other 的真超集，相当于 set >= other && set != other
 ## 8. 函数命名
 
 * 为一个函数**取名的原则**：
-  * 避免重名；
-  * 不要嫌麻烦，尽可能描述清晰；
-  * 取一个化名；
+  * 避免重名
+  * 不要嫌麻烦，尽可能描述清晰
+  * 取一个化名
+  * 避免变量和函数同名
 
 * **lambda** （匿名函数）:  
   * lambda使用方式：lambda <参数列表> : <表达式>。
@@ -321,3 +322,7 @@ True: set 是 other 的真超集，相当于 set >= other && set != other
 3.多行 Docstring，第一行是概要，随后空一行，再写其它部分；  
 4.完善的 Docstring，应该概括清楚以下内容：参数、返回值、可能触发的错误类型、可能的副作用，以及函数的使用限制等等；  
 5.每个参数的说明都使用单独的一行……
+
+## 11. Class  
+关于Class需要注意的：  
+  >在 `Class` 的代码中，如果定义了 `__init__()` 函数，那么系统就会将它当作“ `Instance` 在被创建后初始化的函数”。这个函数名称是**强制指定**的，初始化函数**必须使用这个名称**；注意 `init` 两端各有两个下划线 `_`。
