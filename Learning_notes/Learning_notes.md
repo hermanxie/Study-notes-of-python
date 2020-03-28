@@ -11,7 +11,7 @@
 
   **3. Python 学习书**  
   * [**ThinkPython(Github)**](https://github.com/AllenDowney/ThinkPython2)   
-  * [**ThinkPython(htm)**](http://greenteapress.com/thinkpython2/html/index.html/think-python-2e/)  
+  * [**ThinkPython(htm)**](http://greenteapress.com/thinkpython2/html/index.html)  
   * [**Free books by Allen B. Downey**](https://greenteapress.com/wp/think-dsp/)
   * [**A Bite of Python**](https://python.swaroopch.com/control_flow.html)  
   * [**Dive Into Pyton**](https://linux.die.net/diveintopython/html/)
