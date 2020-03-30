@@ -10,9 +10,13 @@
   >* [**Python Demo 程序**](https://github.com/python/cpython/tree/master/Tools/demo)  
 
   **3. Python 学习书**  
-  * [**ThinkPython(Github)**](https://github.com/AllenDowney/ThinkPython2)   
-  * [**ThinkPython(htm)**](http://greenteapress.com/thinkpython2/html/index.html)  
   * [**Free books by Allen B. Downey**](https://greenteapress.com/wp/think-dsp/)
+    * [**ThinkPython(Github)**](https://github.com/AllenDowney/ThinkPython2)   
+    * [**ThinkPython(htm)**](http://greenteapress.com/thinkpython2/html/index.html)  
+  * [**Python for Everybody**](https://www.py4e.com/book)
+    * [**Python for Everybody:html**](https://eng.libretexts.org/Bookshelves/Computer_Science/Book%3A_Python_for_Everybody_(Severance))
+    * [**视频bilibili**](https://www.bilibili.com/video/BV16b411n7U4?p=1)
+    * [**视频coursera**](https://www.coursera.org/learn/python?specialization=python#syllabus)
   * [**A Bite of Python**](https://python.swaroopch.com/control_flow.html)  
   * [**Dive Into Pyton**](https://linux.die.net/diveintopython/html/)
   * [**Python 练习题**](https://pythonbasics.org/exercises/)
