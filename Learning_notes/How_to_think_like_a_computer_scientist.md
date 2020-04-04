@@ -1,4 +1,4 @@
-# Think Python:How to think like a computer scientist
+# [Think Python:How to think like a computer scientist](http://greenteapress.com/thinkpython2/html/index.html)
 
 ## 第一章  函数的一些基本概念
 ### 1.1 **What is a program?**
@@ -150,3 +150,78 @@ Addition(加法)、Subtraction(减法) | `+` `-` | Last
     >3. 第三步，通过**添加适当的形式参数**来泛化函数。
     >4. 第四步，重复1-3步，直到有了**一组运算函数**。为了避免重复输入和测试，这些工作通过拷贝和粘贴原有运行代码来完成。
     >5. 寻找通过**重构**去优化程序的机会。比如，如果在不同的地方有类似的代码，可以考虑将它分解为一个适当的通用函数。
+
+## 第五章 条件语句和循环语句
+
+概念名 | 概念解释 | 概念语句 | 应用  
+--- | --- | --- | ---
+整除和余数运算符 | 四舍五入为整数；返回剩下得余数  | `//` `%` | 余数运算可以用来**抽取**一组数字**最右边的数**。比如，`x % 10` 可以得到最右边一位数；`x % 100` 可以得到右边的两位数……
+布尔运算 | 是一个要么为真要么为假得表达式 | `==` `!=` `>` `<` `>=` `<=` | 判断真假，及表示关系运算
+逻辑运算 | 严格来说，逻辑运算的运算体应该是布尔表达式；任何非零数字都解释为真 | `and` `or` `not` |  
+条件执行 |   | `if` | 
+复合语句 | 由标题和缩进体组成 |   | 
+选择执行 | 有两种可能性，条件决定哪一种运行;替代条件也叫做**分支** | `if……` \n `else……` | 
+链式条件 | 超过两个分支以上的表达条件 | `elif` | 链式条件的数量不限 （见注释1）
+嵌入条件 | 一个条件可以被嵌套在另一个条件中 | 在`else`后面可以再增加 `if` 语句  | 嵌入条件不是很容易读，尽量避免使用（注释2）
+递归 | 一个函数调用调用自身，并且执行的这个过程叫递归 |  | 见注释3
+
+```
+注释1： 
+if x < y:
+    print('x is less than y')
+elif x > y:
+    print('x is greater than y')
+elif ……         # 不限数量
+else:
+    print('x and y are equal')
+
+注释2：
+if x == y:
+    print('x and y are equal')
+else:
+    if x < y:
+        print('x is less than y')
+    else:
+        print('x is greater than y')
+
+注释3：
+def countdown(n):
+    if n <= 0:
+        print('Blastoff!')
+    else:
+        print(n)
+        countdown(n-1)
+```
+**if语句的几种表达形式**：  
+
+第一种：
+```
+if ……
+```
+第二种：
+```
+if ……：
+    print(……)
+else:
+    print(……)
+```
+第三种：
+```
+if ……：
+    print(……)
+elif ……：
+    print(……)
+elif ……：
+    print(……)
+……
+```
+第四种：
+```
+if ……：
+    print(……)
+elif ……：
+    print(……)
+……
+else:
+    print(……)
+```
